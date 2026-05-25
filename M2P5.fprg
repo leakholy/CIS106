@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M2P5"/>
+        <attribute name="authors" value="leakh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-24 08:33:57 PM"/>
+        <attribute name="created" value="bGVha2g7TUFHSUNLRVk7MjAyNi0wNS0yNDswNzo0MzozNSBQTTsyMzkw"/>
+        <attribute name="edited" value="bGVha2g7TUFHSUNLRVk7MjAyNi0wNS0yNDswODozMzo1NyBQTTsxOzI1MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ItemPrice" type="Real" array="False" size=""/>
+            <declare name="DiscountPercent" type="Real" array="False" size=""/>
+            <declare name="DiscountAmount" type="Real" array="False" size=""/>
+            <declare name="DiscountPrice" type="Real" array="False" size=""/>
+            <input variable="ItemPrice"/>
+            <input variable="DiscountPercent"/>
+            <assign variable="Discountamount" expression="itemprice * discountpercent"/>
+            <assign variable="DiscountPrice" expression="Itemprice - discountamount"/>
+            <output expression="&quot;Your discount amount is $&quot; &amp;discountamount" newline="True"/>
+            <output expression="&quot;Your discount price is $&quot; &amp;discountprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
