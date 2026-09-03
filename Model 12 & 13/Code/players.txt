@@ -1,0 +1,10 @@
+Smith,0.267
+Johnson,0.300
+Williams,0.285
+Brown,0.315
+Jones,0.250
+Garcia,0.290
+Miller,0.275
+Davis,0.310
+Wilson,0.295
+Anderson,0.280
